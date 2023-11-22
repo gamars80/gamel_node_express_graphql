@@ -72,6 +72,24 @@ Steps to run this project:
 
     post 랑 comment 추가해보기
 
+# Apollo란
+    아폴로란 클라이언트와 서버에서 GraphQL을 편리하게 사용할 수 있도록 도와주는 라이브러리이다.
+
+    아폴로를 사용하면 쿼리캐싱, 로딩 상태 및 에러처리 , 서버와 데이터 동기화 같은 이점이 있다.
+
+    https://www.apollographql.com/docs
+
+# Apollo V3
+    불필요한 모듈 삭제 npm uninstall express-graphql
+
+    아폴로 서버를 위한 패키지 설치 npm install apollo-server-express
+
+# Apollo V3->V4 마이그레이팅
+    불필요한 패키지 삭제 npm unistall apollo-sever-express
+
+    필요한 패키지 설치 : npm install @apollo/server cors body-parser (dependency tree 에러시 강제 옵션 -f)
+
+    
 
 
 
